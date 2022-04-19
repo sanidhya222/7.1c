@@ -25,16 +25,16 @@ void loop()
 void forward()
 {
    
-  digitalWrite(leftf1,LOW);   
-  digitalWrite(leftf2, HIGH);   
+  digitalWrite(leftf1,HIGH);   
+  digitalWrite(leftf2, LOW);   
   digitalWrite(rightf1, HIGH);  
   digitalWrite(rightf2, LOW);         
   }
   void reverse()
   {
    
-  digitalWrite(leftf1, HIGH);  
-  digitalWrite(leftf2, LOW);   
+  digitalWrite(leftf1, LOW);  
+  digitalWrite(leftf2, HIGH);   
   digitalWrite(rightf1, LOW);   
   digitalWrite(rightf2, HIGH);   
 
